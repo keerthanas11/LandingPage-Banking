@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KERNEL Bank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\Keerthana S\Desktop\INTERNSHIP\LANDING\img\logo1.jpeg" alt="Bank Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('about')">About</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contact Us</a></li>
+                <li><a href="#"  onclick="showPage('home')">Customers</a></li>
+                <li><a href="#"  onclick="showPage('home')">Transactions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="page">
+            <h2>KERNEL BANK</h2>
+            <h1>Welcome to KERNEL Bank</h1>
+            <p>Your Trusted Financial Partner</p>
+            <img src="C:\Users\Keerthana S\Desktop\INTERNSHIP\LANDING\img\bank.jpeg" alt="Bank Image" class="img">
+        </section>
+
+        <section id="about" class="page" style="display: none;">
+            <h1>About Us</h1>
+            <p>Kernel Bank is committed to providing exceptional financial services tailored to meet the diverse needs of our customers. With a legacy of over 50 years in the banking industry, we have earned a reputation for reliability, integrity, and innovation.</p>
+    <p>At Kernel Bank, we prioritize customer satisfaction by offering personalized banking solutions, robust online services, and expert financial advice. Our dedicated team of professionals strives to build long-lasting relationships based on trust and transparency.</p>
+    <p>As we continue to grow, Kernel Bank remains steadfast in our mission to empower individuals, businesses, and communities to achieve their financial goals and aspirations.</p>
+        </section>
+
+        <section id="contact" class="page" style="display: none;">
+            <h1>Contact Us</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script1.js"></script>
+</body>
+</html>
